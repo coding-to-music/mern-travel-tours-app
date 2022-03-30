@@ -1,8 +1,11 @@
 {
-  "name": "tour-application",
+  "name": "mern-travel-tour-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -40,9 +43,11 @@
     "xss-clean": "^0.1.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "parcel-bundler": "^1.12.5"
   },
-  "engines": {
-    "node": ">=10.0.0"
-  }
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ]
 }

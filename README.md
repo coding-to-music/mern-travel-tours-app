@@ -15,6 +15,8 @@ https://github.com/MehedilslamRipon/Tours-Application
 ### GitHub
 
 ```java
+ nvm install v16
+ npm install
  git init
  git add .
  git remote remove origin
@@ -35,6 +37,20 @@ heroku create mern-travel-tours-appt
 ```java
 heroku config:set MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/mern-travel-tours-app?retryWrites=true&w=majority"
 git push heroku
+```
+
+```java
+YOUR_EMAIL_NAME=""
+YOUR_EMAIL_ADDR=""
+EMAIL_HOST=""
+EMAIL_PORT=""
+EMAIL_USERNAME=""
+EMAIL_PASSWORD=""
+STRIPE_SECRET_KEY=""
+JWT_SECRET=""
+JWT_COOKIE_EXPIRES_IN=""
+JWT_EXPIRES_IN=""
+
 ```
 
 ### Heroku Buildpack
