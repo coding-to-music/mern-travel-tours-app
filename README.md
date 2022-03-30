@@ -1,8 +1,12 @@
-# MERN Chat App
+# MERN Travel Tours App
 
 https://github.com/coding-to-music/mern-travel-tours-app
 
 https://mern-travel-tours-app.herokuapp.com/
+
+## About
+
+An awesome tour booking application by using Node.js, Express.js, MongoDB, Mongoose, pug, and many more packages.
 
 By Mehedi Islam Ripon MehedilslamRipon https://github.com/MehedilslamRipon
 
@@ -11,6 +15,22 @@ https://xerox-tour.herokuapp.com/
 https://github.com/MehedilslamRipon/Tours-Application
 
 ## Installation:
+
+### Scripts
+
+```java
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prod": "pm2-runtime start ecosystem.config.js --env production",
+    "data:import": "node dev-data/data/import-dev-data.js  --import",
+    "data:delete": "node dev-data/data/import-dev-data.js  --delete",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "deploy": "git add . && git commit -m Heroku && git push && git push heroku"
+```
+
 
 ### GitHub
 
