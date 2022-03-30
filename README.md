@@ -4,7 +4,7 @@ https://github.com/coding-to-music/mern-travel-tours-app
 
 https://mern-travel-tours-app.herokuapp.com/
 
-By jordanwhunter https://github.com/jordanwhunter
+By Mehedi Islam Ripon MehedilslamRipon https://github.com/MehedilslamRipon
 
 https://xerox-tour.herokuapp.com/
 
@@ -27,13 +27,13 @@ https://github.com/MehedilslamRipon/Tours-Application
 ### Heroku
 
 ```java
-heroku create my-mern-chat
+heroku create mern-travel-tours-appt
 ```
 
 ### Heroku MongoDB Environment Variables
 
 ```java
-heroku config:set MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/mern-chat?retryWrites=true&w=majority"
+heroku config:set MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/mern-travel-tours-app?retryWrites=true&w=majority"
 git push heroku
 ```
 
@@ -64,7 +64,7 @@ heroku buildpacks:add mars/create-react-app
 Output:
 
 ```java
-Buildpack added. Next release on my-mern-chat will use:
+Buildpack added. Next release on mern-travel-tours-appt will use:
   1. heroku/nodejs
   2. mars/create-react-app
 Run git push heroku main to create a new release using these buildpacks.
@@ -85,7 +85,7 @@ heroku buildpacks
 Output:
 
 ```java
-=== my-mern-chat Buildpack URLs
+=== mern-travel-tours-appt Buildpack URLs
 1. mars/create-react-app
 2. heroku/nodejs
 ```
