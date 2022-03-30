@@ -40,6 +40,7 @@ git push heroku
 ```
 
 ```java
+DATABASE_PASSWORD=""
 YOUR_EMAIL_NAME=""
 YOUR_EMAIL_ADDR=""
 EMAIL_HOST=""
