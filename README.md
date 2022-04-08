@@ -70,7 +70,18 @@ STRIPE_SECRET_KEY=""
 JWT_SECRET=""
 JWT_COOKIE_EXPIRES_IN=""
 JWT_EXPIRES_IN=""
+```
 
+Change to the correct remote
+
+```java
+heroku git:remote -a mern-travel-tours-app
+```
+
+Output:
+
+```java
+set git remote heroku to https://git.heroku.com/mern-travel-tours-app.git
 ```
 
 ### Heroku Buildpack
