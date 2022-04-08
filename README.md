@@ -31,7 +31,6 @@ https://github.com/MehedilslamRipon/Tours-Application
     "deploy": "git add . && git commit -m Heroku && git push && git push heroku"
 ```
 
-
 ### GitHub
 
 ```java
@@ -49,7 +48,7 @@ https://github.com/MehedilslamRipon/Tours-Application
 ### Heroku
 
 ```java
-heroku create mern-travel-tours-appt
+heroku create mern-travel-tours-app
 ```
 
 ### Heroku MongoDB Environment Variables
@@ -100,7 +99,7 @@ heroku buildpacks:add mars/create-react-app
 Output:
 
 ```java
-Buildpack added. Next release on mern-travel-tours-appt will use:
+Buildpack added. Next release on mern-travel-tours-app will use:
   1. heroku/nodejs
   2. mars/create-react-app
 Run git push heroku main to create a new release using these buildpacks.
@@ -121,7 +120,7 @@ heroku buildpacks
 Output:
 
 ```java
-=== mern-travel-tours-appt Buildpack URLs
+=== mern-travel-tours-app Buildpack URLs
 1. mars/create-react-app
 2. heroku/nodejs
 ```

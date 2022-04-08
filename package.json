@@ -16,7 +16,7 @@
     "start:prod": "NODE_ENV=production nodemon server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
-    "deploy": "git add . && git commit -m Heroku && git push && git push heroku"
+    "deploy": "git add . && git commit -m Heroku && git push && git push heroku && heroku logs --tail"
   },
   "author": "Mehedi Islam Ripon",
   "license": "ISC",
